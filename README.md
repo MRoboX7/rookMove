@@ -96,5 +96,5 @@ r
 - Each player will have 30 seconds to make their move.
 - If a player does not make a move within the allocated time, the game is over.
 
-##License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
