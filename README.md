@@ -27,7 +27,7 @@ Provide an introduction to your app, what it does, and any important background 
 To get started with the server part, clone the repository to your local machine:
 
 ```
-git clone <https://github.com/MRoboX7/rookMove.git>
+git clone https://github.com/MRoboX7/rookMove.git
 ```
 
 ### Navigate to the Server Directory
