@@ -282,18 +282,7 @@ class ChessBoard extends Phaser.Scene {
           wordWrap: { width: 325, useAdvancedWrap: true }
       });
       gameOverText.setOrigin(0.5);
-
-      const returnButton = this.add.text(187.5, 382.25, 'Return to Intro', {
-          font: '24px Arial', // You can change the font here
-          fill: '#fff',
-      });
-      returnButton.setOrigin(0.5);
-      returnButton.setInteractive();
-
-      returnButton.on('pointerdown', () => {
-          this.scene.start('IntroScene');
-      });
-  });
+    });
   }
 }
 
