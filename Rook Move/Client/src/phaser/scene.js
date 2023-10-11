@@ -69,13 +69,13 @@ class ChessBoard extends Phaser.Scene {
     
           // Create a square sprite with breathing animation
           const square = scene.add.sprite(squareX, squareY, "square");
-          square.setScale(1.1); // Initial scale for the breathing effect
+          square.setScale(0.75); // Initial scale for the breathing effect
     
           // Add an animation to the square
           scene.tweens.add({
             targets: square,
-            scaleX: 1.2,
-            scaleY: 1.2,
+            scaleX: 1.1,
+            scaleY: 1.1,
             duration: 1000,
             yoyo: true,
             repeat: -1, // Infinite animation
