@@ -79,6 +79,7 @@ io.on('connection', (socket) => {
       const currentPlayer = players.find((p) => p.socket === socket);
       const otherPlayer = players.find((p) => p.id !== currentPlayer.id);
       io.to(otherPlayer.socket.id).emit('gameOver', 'You win! Your opponent ran out of time.');
+      io.to(currentPlayer.socket.id).emit('gameOver', 'OOPS! Out of time! You Lose!');
     }, turnTimeout);
   }
 
